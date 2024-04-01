@@ -11,7 +11,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
         </svg>
       </div>
-      <nav :class="{ 'hidden': !isNavOpen }" class="flex justify-center gap-5 flex-wrap" @click.away="!isNavOpen">
+      <nav :class="{ 'hidden': !isNavOpen }" class="flex justify-center gap-5 flex-wrap md:flex" @click.away="!isNavOpen">
         <RouterLink to="/">Tips store</RouterLink>
         <RouterLink to="/about">Rollover</RouterLink>
         <RouterLink to="/about">50 Odds</RouterLink>
